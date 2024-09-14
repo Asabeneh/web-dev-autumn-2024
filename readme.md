@@ -1,6 +1,3 @@
-Here is the documentation in Markdown format with an example for each HTML tag:
-
----
 
 # HTML Documentation
 
