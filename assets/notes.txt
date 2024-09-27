@@ -1,0 +1,20 @@
+- HTML
+- HTML - HyperText Markup Language
+- HTML Element: opening tag, content closing
+- Different kinds of element: there are elements that have only opening tag
+<img />
+<hr />
+<br />
+- Blocking and non-blocking elements 
+Block: h1 - h6, p, section, div
+Non-block: img, a, span, small
+
+
+Pages
+CSS Box models
+
+colors
+
+Properties of blocking and non -blocking element
+
+
