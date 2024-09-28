@@ -167,12 +167,14 @@ span {
     height:150px;
     width: 150px;
     display: inline-block;
+    text-align: center;
+    font-weight: 600;
 
 }
 #box-1 {
     background-color: rgb(123, 239, 123);
-    left: 20px;
-    top:20px;
+    left: 30px;
+    top:30px;
   
 }
 
@@ -183,8 +185,8 @@ span {
 
 #box-2 {
     background-color: rgb(233, 233, 106);
-    left:40px;
-    top:40px;
+    left:60px;
+    top:60px;
 
 }
 #box-2:hover {
@@ -192,19 +194,22 @@ span {
 }
 #box-3 {
     background-color: rgb(229, 96, 96);
-    left:60px;
-    top:60px;
+    left:90px;
+    top:90px;
 }
 #box-3:hover {
     background-color: red;
 }
 #box-4 {
     background-color: rgb(77, 152, 244);
-    left:80px;
-    top:80px;
+    /* left:120px;
+    top:120px; */
+    transition: bottom 0.9 ease, right 0.9 ease;
 }
 #box-4:hover {
     background-color: blue;
+    bottom:0;
+    right:0;
 }
 
 /*
