@@ -165,77 +165,25 @@ span {
     height:80px;
 }
 
-#css-circle-model {
-    background-color: #4bda17;
-    width: 250px;
-    height: 250px;;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 15px;
-    background-color: rgb(248, 248, 123);
-    margin-left: 50px;
-    margin-top: 50px;
+i {
+    font-size: 32px;
 }
-#sea {
-    position: relative;
-    background-color: lightblue;
-    height: 500px;
-}
-.box {
-    position:absolute;
-    height:150px;
-    width: 150px;
-    display: inline-block;
-    text-align: center;
-    font-weight: 600;
-
-}
-.box:hover #box-2{
-    left: 200px;
-    top:200px;
-  
-}
-#box-1 {
-    background-color: rgb(123, 239, 123);
-    left: 30px;
-    top:30px;
-  
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#box-1:hover {
-    background-color: green;
+.social-links {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+   
+    
 }
 
 
-#box-2 {
-    background-color: rgb(233, 233, 106);
-    left:60px;
-    top:60px;
 
-}
-#box-2:hover {
-    background-color: yellow;
-}
-#box-3 {
-    background-color: rgb(229, 96, 96);
-    left:90px;
-    top:90px;
-}
-#box-3:hover {
-    background-color: red;
-}
-#box-4 {
-    background-color: rgb(77, 152, 244);
-    /* left:120px;
-    top:120px; */
-    transition: bottom 0.9 ease, right 0.9 ease;
-}
-#box-4:hover {
-    background-color: blue;
-    bottom:0;
-    right:0;
-}
 
 /*
 absolute

@@ -24,13 +24,13 @@ header {
     padding: 25px;
     border-bottom: 5px solid #ccc;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    top: 0;
+    /* top: 0; */
     background-color: rgb(181, 27, 232);
     background-color: white;
-    ;
-    z-index: 200;
+    /* ;
+    z-index: 200; */
     color: black;
 
 }
