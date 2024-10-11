@@ -1,0 +1,34 @@
+#contact-form {
+    width: 55%;
+    margin: auto
+
+}
+.form-group {
+    display:flex;
+    flex-direction: column;
+    margin:8px 0px;
+}
+#contact-form input, #contact-form textarea,  #contact-form select {
+padding:12px 8px;
+margin: 3px 0;
+}
+input[type='color'] {
+    width:150px;
+    height: 50px;;
+}
+
+#contact-form button {
+    width:150px;
+    height:45px;
+    cursor: pointer;
+    border-radius:5px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border: 2px solid green;
+}
+
+#contact-form button:hover {
+    background-color: green;
+    color:white
+
+}
